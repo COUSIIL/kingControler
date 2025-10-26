@@ -1,0 +1,28 @@
+# Dossiers de build
+build/
+cmake-build-*/
+bin/
+obj/
+
+# Fichiers temporaires
+*.o
+*.obj
+*.exe
+*.log
+*.out
+*.tmp
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# SFML ou dépendances locales
+*.dll
+*.so
+*.dylib
