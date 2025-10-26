@@ -6,5 +6,12 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(SFML 2.5 COMPONENTS system window graphics REQUIRED)
 
-add_executable(sfmldemo main.cpp)
+add_executable(sfmldemo
+    src/main.cpp
+    src/Game.cpp
+    src/Player.cpp
+    src/PhysicsBody.cpp
+    src/Controller.cpp
+)
+
 target_link_libraries(sfmldemo PRIVATE sfml-system sfml-window sfml-graphics)
